@@ -1,4 +1,6 @@
 # BattleCruiser
 Developers:
-Eddie Marrero Jr.
-Android Studio Capstone Project
+Ramy Hanafi
+Eddie Marrero Jr
+Brian Salgine
+Android Development Capstone Project
