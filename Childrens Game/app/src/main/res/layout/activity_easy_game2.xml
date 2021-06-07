@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/easyGame2Layout"
+    android:background="@android:color/darker_gray"
+    tools:context=".EasyGame2">
+
+    <TextView
+        android:id="@+id/txtQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/what_is_2_2"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="357dp"
+        android:text="@string/_4"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="356dp"
+        android:text="@string/_1"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="53dp"
+        android:text="@string/_2"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        tools:ignore="RelativeOverlap,SpUsage" />
+
+    <TextView
+        android:id="@+id/txtTarget"
+        android:layout_width="121dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/place_answer_here"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/continueButton2"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="173dp"
+        android:onClick="moveToNextGame2"
+        android:text="Continue"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

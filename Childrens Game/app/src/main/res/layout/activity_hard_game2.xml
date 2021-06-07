@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent"
+    tools:context=".HardGame2">
+
+    <ImageView
+        android:id="@+id/droidImg"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txtGoal"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="156dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:text="@string/drop_droid_here" />
+
+    <TextView
+        android:id="@+id/redBar1"
+        android:layout_width="21dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/redBar2"
+        android:layout_width="48dp"
+        android:layout_height="292dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="250dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/redBar3"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="5dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/redBar4"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="171dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/redBar5"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="231dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/redBar6"
+        android:layout_width="126dp"
+        android:layout_height="340dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="1dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ContinueButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:text="Continue"
+        android:onClick="moveToNextGame"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/redBar7"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/holo_red_light"
+        android:text="" />
+</RelativeLayout>
